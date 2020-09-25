@@ -1,0 +1,49 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+  .hero {
+    font-family: 'Lato', sans-serif;
+    padding: 80px 0px;
+  }
+  .hero h1 {
+    font-size: 400px;
+    color: rgba(34, 4, 34, 0.1);
+    margin-bottom: 0px;
+  }
+  .hero h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-top: -130px;
+  }
+  .hero h3 {
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .hero .btn-back {
+    background-color: #002f4b;
+    cursor: pointer;
+    margin: 30px 0px;
+    padding: 12px;
+    border: 1px solid #002f4b;
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.03);
+  }
+  .hero .btn-back:hover {
+    background-color: rgba(0,47,75,0.8);
+    transform: scale(1.03);
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+ .hero .astro img {
+    position: fixed;
+    top: 40%;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+  }
+  

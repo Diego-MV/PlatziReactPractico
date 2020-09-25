@@ -1,15 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import {createStore} from 'redux';
-import {Provider} from 'react-redux';
-
-import App from './routes/App';
-import reducer from './reducers'
-
-const initialState = {
-      "searchResult": {},
-      "user": {},
-      "playing": {},
+{
+    "initalState": {
       "mylist": [],
       "trends": [
         {
@@ -173,27 +163,18 @@ const initialState = {
       ],
       "documental": [
         {
-          "id": 20,
+          "id": 13,
           "slug": "tvshow-13",
-          "title": "Documental NGEO",
-          "type": "Documental",
+          "title": "NCIS: Los Angeles",
+          "type": "Drama",
           "language": "English",
-          "year": 2017,
-          "contentRating": "12+",
+          "year": 2010,
+          "contentRating": "16+",
           "duration": 160,
           "cover": "http://dummyimage.com/800x600.png/5472FF/ffffff",
           "description": "Vestibulum ac est lacinia nisi venenatis tristique",
           "source": "https://mdstrm.com/video/58333e214ad055d208427db5.mp4"
         }
       ]
-}
-
-const store = createStore(reducer, initialState);
-
-ReactDOM.render(
-    <Provider store={store}>
-        <App/>
-    </Provider>
-    ,
-    
-    document.getElementById('app'));
+    }
+  }
